@@ -23,6 +23,8 @@ CREATE TABLE Usuario (
     CONSTRAINT fk_Usuario_TipoUsuario FOREIGN KEY (idTipoUsuario) REFERENCES TipoUsuario(idTipoUsuario)
 );
 
+SELECT *FROM Usuario;
+
 -- Tabla Categoria
 CREATE TABLE Categoria (
     idCategoria NUMBER PRIMARY KEY,
